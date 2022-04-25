@@ -21,6 +21,4 @@ func main() {
 		log.Fatalf("failed creating schema resources: %v", err)
 	}
 
-	CRUD05(context.Background(), client)
-
 }
